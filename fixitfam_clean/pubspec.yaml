@@ -1,0 +1,38 @@
+name: fixitfam
+description: FixitFam - Smart Family Management & Communication App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  # Payment integration (for future use)
+  razorpay_flutter: ^1.3.6
+  # Utilities
+  email_validator: ^2.1.17
+  crypto: ^3.0.3
+  url_launcher: ^6.2.2
+  intl: ^0.18.1
+  # UI Enhancements
+  confetti: ^0.7.0
+  fluttertoast: ^8.2.4
+
+# Voice Assistant
+speech_to_text: ^6.6.0
+flutter_tts: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
